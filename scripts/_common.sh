@@ -5,7 +5,7 @@
 # =============================================================================
 
 # Package dependencies
-pkg_dependencies="php5-cli php5-common php5-intl php5-json php5-mcrypt php-pear php-auth-sasl php-mail-mime php-patchwork-utf8 php-net-smtp php-net-socket php-net-ldap2 php-net-ldap3"
+pkg_dependencies="php7.0-cli php7.0-common php7.0-intl php7.0-json php7.0-mcrypt php7.0-ldap php-pear php-auth-sasl php-mail-mime php-patchwork-utf8 php-net-smtp php-net-socket php-net-ldap2 php-net-ldap3"
 if [ "$(lsb_release --codename --short)" != "jessie" ]; then
   pkg_dependencies="$pkg_dependencies php-zip php-gd php-mbstring"
 else
